@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\springworkspace\SpringProject9_JPA_step2"/>
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\이동근\학교\2학년\1학기\스프링(장용미 교수 - 수)\스프링 퀵 스타트 2020년\Mybatis.zip"/>
+			<item value="C:\Users\이동근\학교\2학년\1학기\스프링(장용미 교수 - 수)\스프링 퀵 스타트 2020년\MVC.zip"/>
+			<item value="C:\Users\이동근\학교\2학년\1학기\스프링(장용미 교수 - 수)\스프링 퀵 스타트 2020년\JDBC.zip"/>
+			<item value="C:\Users\이동근\학교\2학년\1학기\스프링(장용미 교수 - 수)\스프링 퀵 스타트 2020년\AOP.zip"/>
+			<item value="C:\Users\이동근\학교\2학년\스프링(장용미 교수 - 수)\스프링 퀵 스타트 2020년\MVC.zip"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="203"/>
+		<item key="DIALOG_Y_ORIGIN" value="197"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

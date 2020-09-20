@@ -1,0 +1,40 @@
+package com.springbook.biz.user.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.support.JdbcDaoSupport;
+import org.springframework.stereotype.Repository;
+
+import com.springbook.biz.board.BoardVO;
+import com.springbook.biz.common.JDBCUtil;
+import com.springbook.biz.user.UserVO;
+
+
+@Repository("userDAO")
+public class UserDAO extends JdbcDaoSupport {
+	
+	private Connection conn = null;
+	private PreparedStatement stmt = null;
+	private ResultSet rs = null;
+	
+	//SQL 명령어
+	private final String USER_GET = "select * from users where id=? and password=?";
+	
+	
+	// CRUD 기능의 메소드 구현
+	// 회원 등록
+	
+	@Autowired
+	public void setSuperDataSoure(DataSource dataSource) {
+			super.setDataSource(dataSource);
+		}
+	
+	public UserVO getUser(UserVO vo) {
+		
+		}
+}

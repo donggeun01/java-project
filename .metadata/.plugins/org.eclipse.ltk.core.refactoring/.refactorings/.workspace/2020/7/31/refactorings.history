@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringProject7_MVC_step5_2&apos; to &apos;SpringProject9_JPA_step2&apos;" description="Rename resource &apos;SpringProject7_MVC_step5_2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SpringProject7_MVC_step5_2" name="SpringProject9_JPA_step2" stamp="1596019790630" updateReferences="true"/>
+</session>
