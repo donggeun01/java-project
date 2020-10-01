@@ -22,7 +22,7 @@ public class contest {
 	         Collections.sort(list);
 	         
 	         // 중복 제거
-	         if(list.size() > 1) {
+	         if(list.size() > 1) { 
 	             for (int j = 0; j < list.size(); j++) {
 	                 for(int i = 0; i < list.size(); i++) {
 	                     if(i == j) continue;
@@ -48,11 +48,12 @@ public class contest {
 	            list.remove(list.size()-1);
 	         }
 	         
-	         
+	         // 값 합산
 	         for(int i = 0; i < list.size(); i++) {
 	              sum += (double)list.get(i);
 	         }
-	         
+	        
+	        // 평균값 
 	        sum = sum / list.size();
 	    
 	        
